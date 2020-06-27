@@ -33,7 +33,11 @@ def subsetSum(val,dp,n,sum):
     for i in range(1,m+1):
         for j in range(1,n+1):
             if(val[i-1]>j):
-                T[]
+                T[i][j] = T[i-1][j]
+            else:
+                T[i][j] = T[i-1][j] or T[i-1][j-A[i-1]]
+
+        return T[n][sum]
     
     if(val[n-1]<sum):
         include = subsetSum(val,dp,n-1,sum-val[n])
