@@ -26,3 +26,5 @@ def subsetSum(val,n,W):
 val = [1,5,11,5]
 result = equalSum(val)
 print(result)
+
+
