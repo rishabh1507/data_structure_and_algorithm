@@ -41,3 +41,6 @@ li = list(map(int, input().split()))
 x = int(input())
 result1, result2 = f_l(li, x)
 print(result1, result2)
+
+#interview bit
+we have to make 2 function other wise space issues
