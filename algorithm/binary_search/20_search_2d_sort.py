@@ -4,7 +4,7 @@ def search2d(li,key):
     i = 0
     j = m-1
 
-    while(i>=0 and j>=0 and j<m):
+    while((i>=0 and i<n) and (j>=0 and j<m)):
         if(li[i][j] == key):
             return [i,j]
         
