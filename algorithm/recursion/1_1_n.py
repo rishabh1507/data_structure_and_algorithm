@@ -1,11 +1,12 @@
 #code
 def Print(ip):
+    
     if(ip == 1):
-        print(ip, end=" ")
+        print(ip,end= " ")
         return
 
     Print(ip-1)
-    print(ip, end=" ")
+    print(ip,end=" ")
 
 
 t = int(input())
