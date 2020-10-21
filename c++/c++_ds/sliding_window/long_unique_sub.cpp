@@ -19,6 +19,10 @@
 // 	So, whenever I get any character which is already processed, I'll make my windowStart as
 // 	the last index of the character + 1.
 
+
+
+// 2 loop
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -54,9 +58,11 @@ int longsub(string s)
 int main()
 {
 
-    string s = "abccde";
+    string s = "aabccbb";
     int result;
     result = longsub(s);
     cout << result;
     return 0;
 }
+
+
